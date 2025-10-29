@@ -8,15 +8,15 @@ const CardsPage = () => {
             <div className="col-md-4">
             <CardComponent
             title="Лягушечка 1"
-            imageUrl = "/images/1.jpg"
+            imageUrl = {`${process.env.PUBLIC_URL}/images/1.jpg`}
             desctiption="Это самая крутая лягушечка номер 1"
             imageAlt="Лягушечка 1"/>
           </div>
-          
+           {/* // "homepage": "https://kaitomy.github.io/site", */}
           <div className="col-md-4">
             <CardComponent
             title="Лягушечка 2"
-            imageUrl = "/images/2.jpg"
+            imageUrl = {`${process.env.PUBLIC_URL}/images/2.jpg`}
             desctiption="Это самая крутая лягушечка номер 2 Это самая крутая лягушечка номер 2 Это самая крутая лягушечка номер 2 Это самая крутая лягушечка номер 2"
             imageAlt="Лягушечка 2"/>
           </div>
@@ -24,7 +24,7 @@ const CardsPage = () => {
             <div className="col-md-4">
             <CardComponent
             title="Лягушечка 3"
-            imageUrl = "/images/3.jpg"
+            imageUrl = {`${process.env.PUBLIC_URL}/images/3.jpg`}
             desctiption="Это самая крутая лягушечка номер 3"
             imageAlt="Лягушечка 3"/>
           </div>

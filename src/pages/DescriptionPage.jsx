@@ -56,7 +56,7 @@ const DescriptionPage = () => {
                                 style={{background: 'linear-gradient(135deg, #7977dbff 0%, #9f65b9ff 100%)'}}>
                                     <div className='text-center p-4'>
                                         <img
-                                            src="/images/2.jpg"
+                                            src={`${process.env.PUBLIC_URL}/images/2.jpg`}
                                             alt="Жабонька"
                                             className='img-fluid rounded-circle shadow-lg mb-3'
                                             style={{

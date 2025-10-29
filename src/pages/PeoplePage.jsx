@@ -4,7 +4,7 @@ const PeoplePage = () => {
     const [human, setHuman] = useState([]);
 
     useEffect(() => {
-        fetch('/api/data.json')
+        fetch(`${process.env.PUBLIC_URL}/api/data.json`)
         .then((res) => res.json())
         .then((data) => setHuman(data.human || []));
     }, []);

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import './App.css';
 import CardComponent from './components/CardComponent';
 import HomePage from './pages/HomePage';
